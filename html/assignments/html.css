@@ -1,0 +1,41 @@
+th img {
+  width: 80%;
+}
+ul {
+  background-color: #EEEEEE;
+  list-style-type: none;
+  padding: 0;
+}
+td span {
+  list-style-type: none;
+  padding: 0px;
+  display: block;
+  background-color: #6c8790;
+}
+
+div td {
+  width: -moz-min-content;
+  padding-left: 100px;
+}
+form li {
+  padding: 16px 10px;
+  text-decoration: none;
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #304b54;
+  text-align: center;
+}
+label {
+  color:#e5443c;
+}
+label input {
+  background-color:#98a4ab;
+}
+
+body {
+  background-color: #20252b;
+}
+h2 {
+  text-align: center;
+}
