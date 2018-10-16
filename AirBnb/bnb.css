@@ -1,0 +1,38 @@
+body {
+  width: 1000px;
+  margin: auto;
+}
+#nav1 input {
+  width: 60%;
+}
+ #small{
+  width: 30%;
+}
+#nav1 ,#middle {
+  margin: 5px;
+  width: 395px;
+  vertical-align: top;
+}
+#nav2 {
+  width: 180px;
+  margin-left: -35px;
+  font-size: 11px;
+
+}
+.red {
+  color: red;
+
+}
+#nav2 ,#nav1, #middle {
+ display: inline-block;
+ vertical-align: top;
+}
+#inline, #inline2 {
+  font-size: 13px;
+  display:inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+}
+#san {
+  font-size: 13px;
+}
