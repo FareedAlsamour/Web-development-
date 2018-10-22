@@ -1,0 +1,120 @@
+body {
+  width: 1000px;
+  background-color: #eeeeee;
+}
+b a {
+  padding-left: 5px;
+}
+#nav_bar h3 {
+  display: inline;
+  margin-left: 0px;
+  background-color: white;
+}
+#bar h1 {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+#nav_bar {
+  background-color: #dddddd;
+  width: 225px;
+  padding: 10px;
+}
+#searchBar {
+  background-color: #cccccc;
+}
+#margin {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  margin-top: -10px;
+}
+#searchBarWidth {
+  width: 70%;
+}
+
+}
+#searchBar h3 {
+  font-size: 22px;
+  margin: 10px;
+}
+#center {
+  text-align: center;
+}
+#parent1 , #nav_bar, #parent3, #parent4 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 230px;
+}
+.nav2 , .nav3, .nav4 {
+  font-size: 18px;
+  margin-left: 10px;
+  width: 230px;
+  background-color: #dddddd;
+}
+#inNav2, .nav2 {
+  display: block;
+}
+#inNav3, .nav3 {
+  display: block;
+}
+#inNav4, .nav4 {
+  display: block;
+}
+
+
+#inNav2, #inNav3, #inNav4 {
+  font-size: 18px;
+  padding-top: 5px;
+}
+#bar {
+  width: 100%;
+
+}
+#a, #b ,#c, #d {
+  display: inline-block;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  margin-top: -12px;
+}
+#a {
+  margin-left: 20px;
+}
+#b {
+  background-color: #dddddd;
+ margin-left: 130px;
+ padding-right: 20px;
+ padding-bottom: 0px;
+ padding-left: 20px;
+ font-size: 26px;
+}
+#c {
+  padding-left: 30px;
+  width: 120px;
+
+}
+
+
+.border {
+  font-size: 17px;
+  margin-left: 10px;
+  background-position: all;
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  border: 2px solid #eeeeee;
+}
+
+
+}
+.marBot {
+  margin-bottom: -1px;
+}
+.marLeft {margin-left: 5px;
+}
+
+.marRight {
+  margin: 10px;
+}
+.faq {
+  font-size: 24px;
+}
