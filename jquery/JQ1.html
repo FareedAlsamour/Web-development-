@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+    	<meta charset="utf-8">
+    	<title>Materialize</title>
+
+        <link rel="stylesheet" type="text/css" href="materialize.css">
+    	<!--Import Google Icon Font-->
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--Import materialize.css-->
+          <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+          
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+         <script
+              src="https://code.jquery.com/jquery-3.3.1.js"
+              integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+              crossorigin="anonymous"></script>
+           
+    </head>
+    <body class="#bbdefb blue lighten-4">
+        <div class="container">
+            <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Magic!</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><input class="append" type="submit" name="append" value="Append"></li>
+            <li><input class="ccolor" type="submit" name="ccolor" value="Change color"></li>
+            <li><input class="fade" type="submit" name="fadeout" value="Fade out"></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="card-panel teal lighten-2">
+        <h2>Add some text with some </h2>          
+      </div>
+      <div class="#aa00ff purple accent-4">
+        <h3>Everything Changes in this life.. EVEN COLORS!!</h3>
+      </div>
+      <div class="#00695c teal darken-3">
+        <h1> NoThing Stays for ever.. even texts</h1>
+      </div>
+
+      </div>
+
+
+      <script>
+    $(".append").click(function(){
+        $("h2").append( "<strong>Magic!</strong>" );
+    });
+    $(".ccolor").click(function(){
+        $("h3").css( "color", "red" );
+    });
+    $(".fade").click(function(){
+        $("h1").fadeOut( "slow" );
+    });
+</script>
+
+    </body>
+</html>
