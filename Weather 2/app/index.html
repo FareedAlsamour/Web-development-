@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Workshop - Ex2!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.11.0"></script>
+  </head>
+  <body>
+    <h1>Hi there!</h1>
+    
+    <input type="search" id="address-input" placeholder="Where are we going?" />
+    <script>
+      var placesAutocomplete = places({
+        container: document.querySelector('#address-input'),
+        countries: ['nl']
+      });
+      
+      placesAutocomplete.on('change', e => {
+        // console.log(e);
+        getWeather(e.suggestion.name, e.suggestion.countryCode)
+      });
+    </script>
+    <div id="weather_conditions"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
+</html>
